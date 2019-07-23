@@ -117,10 +117,14 @@ h3, .section2{
     }
     .info{
       position:absolute;
-      top:57%;
+      top:60%;
       width:100%;
       text-align:center;
       color:rgb(196, 196, 196);
+      font-size:27px;
+      letter-spacing:4px;
+      text-transform:uppercase;
+      font-weight: 100;
     }
   }
 
