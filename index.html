@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Raymond's Portfolio</title>
+    <title>Portfolio Page</title>
   </head>
-  
+
     <body>
       <div class="pimg1">
         <div class="ptext">
-          <span class="border">
-            Raymond L
+          <span class="border load">
+            David Ray
           </span>
         </div>
+        <div class="info load">Software Developer</div>
       </div>
   
       <section class="section section-ligh containert">
@@ -22,19 +23,52 @@
         <div class="block container">
           <div class="row">
 
-            <div class="section1 col ">
+            <div class="section1 col-md-4 order-2 order-md-1">
               <h3>Hey im Ray..</h3>
               <p>a developer dedicated to utilizing my skills and knowledge of programming, technology, design, and troubleshooting, to create high-impact, compelling and fully designed projects. I am able to learn new concepts quickly and effectively and determined to carry out my position and meet company's expectations, when given the opportunity.                </p>
-              <h3>Experience</h3>
+      
               <ul></ul>
             </div>
 
-            <div class="section2 col ">
-              <img src="img/me.jpg" class="picMe"alt="">
-            </div>
+            <div class="section2 col-md-4 order-1 order-md-2">
+                <img src="img/me.jpg" class="picMe text-center img-fluid"alt="">
+                
+              </div>
 
-            <div class="section3 col">
-
+            <div class="section3 col-md-4 order-3 order-md-3">
+                <h3>Experience</h3>
+                <ul>
+                  <li>Full Stack</li>
+                  <li>ReactJS</li>
+                  <li>Bootstrap</li>
+                  <li>Version Control(Git)</li>
+                </ul>
+              <h3>Skills</h3>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+                </div>
+                <div class="progress-value">
+                    Photoshop
+                </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%</div>
+              </div>
+              <div class="progress-value">
+                  CSS/SASS
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%</div>
+              </div>
+              <div class="progress-value">
+                  JAVASCRIPT
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%">55%</div>
+              </div>
+              <div class="progress-value">
+                  React
+              </div>
+              
             </div>
 
         </div>
@@ -51,21 +85,58 @@
   
       <section class="section section-dark">
         <h2>Projects</h2>
-        <div class="project1">
-          <h3>Project 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies.</p>
-        </div>
-        <div class="project 2">
-          <h3>Project 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies.</p>
-        </div>
-        <div class="project 3">
-            <h3>Project 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies.</p>
+        <div class="container">
+          <div class="row">
+            <div class="project1 col-sm-12 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        Project 1
+                    </div>
+                    <img class="card-img-top" src="https://source.unsplash.com/daly" alt="Card image top">
+                    <div class="card-body">
+                        <h3 class="card-title">Project Name</h3>
+                        <p class="card-text">Short explanation of the project</p>
+                    </div>
+                    <div class="card-footer">
+                            This is a footer
+                    </div>
+                </div>
+              </div>
+            <div class="project 2 col-sm-12 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        Project 2
+                    </div>
+                    <img class="card-img-top" src="https://source.unsplash.com/daly" alt="Card image top">
+                    <div class="card-body">
+                        <h3 class="card-title">Project Name</h3>
+                        <p class="card-text">Short explanation of the project</p>
+                    </div>
+                    <div class="card-footer">
+                            This is a footer
+                    </div>
+                </div>
+              </div>
+            <div class="project 3 col-sm-12 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        Project 3
+                    </div>
+                    <img class="card-img-top" src="https://source.unsplash.com/daly" alt="Card image top">
+                    <div class="card-body">
+                        <h3 class="card-title">Project Name</h3>
+                        <p class="card-text">Short explanation of the project</p>
+                    </div>
+                    <div class="card-footer">
+                            This is a footer
+                    </div>
+                </div>
+              </div>
           </div>
+        </section>
       </section>
   
-      <section class="section section-dark">
+      <section class="section pimg3">
         <h3>Contact Me</h3>
         <form class="my-form">
           <div class="form-group">
