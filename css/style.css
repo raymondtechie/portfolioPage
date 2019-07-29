@@ -8,9 +8,11 @@ body, html{
     color:#666;
   }
   
-  ul {
-    text-align: left;
+  .ul {
+    text-align: center;
+    list-style-type: none ;
   }
+
   .pimg1, .pimg2, .pimg3{
     position:relative;
     opacity:0.70;
@@ -94,6 +96,10 @@ h3, .section2{
     text-transform:uppercase;
     font-weight: 100;
 
+  }
+
+  .ul{
+    text-align:center;
   }
   
   .ptext .border{
