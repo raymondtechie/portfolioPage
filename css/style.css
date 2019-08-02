@@ -49,6 +49,10 @@ h3, .section2{
   text-align: center;
 }
 
+h3 {
+  text-align: left;
+}
+
   .pimg1{
     background-image:url('../img/img1.jpeg');
     min-height:100%;
@@ -133,6 +137,12 @@ h3, .section2{
       font-weight: 100;
     }
   }
+
+.sectHead{
+    /* display:flex; */
+    font-weight: 100;
+    font-size: 50px;
+  } 
 
   .picMe {
 
